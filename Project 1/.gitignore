@@ -1,0 +1,18 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+/build
+/dist
+*.log
+*.temp
+
+# Ignore dependencies directory (e.g., Node.js, Python, Java)
+node_modules/
+vendor/
+target/
+
+# Ignore configuration and sensitive files
+.env
+config.local.yaml
